@@ -1,0 +1,72 @@
+.Post {
+    display: flex;
+    padding: 1rem;
+    transition: background-color 0.2s;
+    border-bottom: 1px solid var(--twitter-secondary);
+}
+
+.Post:hover{
+    cursor: pointer;
+    background-color: var(--twitter-secondary);
+}
+
+.Post_Content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    padding-left: 1rem;
+}
+
+.Post_Avatar {
+    cursor: pointer;
+}
+
+.Post_Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Post_Title h3,
+.Post_Title h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.Post_Title {
+    display: flex;
+    align-items: center;
+}
+
+.Post_Title h3 {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Post_Title h4 {
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    color: var(--grey-2);
+    cursor: pointer;
+}
+
+.Post_Option {
+    cursor: pointer;
+}
+
+.Post_Description {
+    font-size: 0.9rem;
+}
+
+.Post_Media img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.Post_Footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:0.5rem;
+}
